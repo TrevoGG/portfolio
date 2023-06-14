@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    height: 100%;
+}
+body{
+    
+    box-sizing: border-box;
+    background-color: #000000;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+.cabecalho{
+    padding: 2% 0% 0%  30.5%
+}
+.cabecalho__menu{
+    display: flex;
+    gap: 80px;
+}
+.cabecalho__menu__link{
+    text-decoration: none;
+    font-size: 24px;
+    font-family:'Rajdhani', sans-serif;
+    font-weight: 500;
+    color: #4bf7ee;
+}
+.apresentacao{
+    padding: 5% 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.apresentacao__conteudo{
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.titulo{
+    display: flex;
+    justify-content: center;
+    font-family:'Rajdhani', sans-serif;
+    color: #4bf7ee;
+}
+.subtitulo{
+    font-family:'Rajdhani', sans-serif;
+    font-weight: 300;
+    color: #ffffff;
+}
+.retratodiv{
+    border: 1px solid #4bf7ee;
+    width: 400px;
+    height: 400px;
+
+}
+.retrato{
+  width: 400px;
+  height: 400px;
+  object-fit: fill;
+}
+.apresentacao__links{
+    padding: 0% 0% 0% 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    
+    }
+    .apresentacao__links__link{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    width: 348px;
+    font-size: 24px;
+    text-align: center;
+    font-weight: 600;
+    padding: 20px 0px;
+    border-radius: 0px;
+    text-decoration: none;
+    color: #ffffff;
+    font-family:'Rajdhani', sans-serif;
+    font-weight: 300;
+    border: 2px solid #22eefd;
+    }
+    .apresentacao__links__link:hover{
+    background-color: #161616;
+    border: 2px solid #0cff2d;
+    }
+
+    .rodape{
+        padding: 20px;
+        background-color: #53f4ff;
+        text-align: center;
+        font-family:'Rajdhani', sans-serif;
+        color: #000000;
+        font-size: 24px;
+        font-weight: 400;
+        margin-top: auto;
+            }
